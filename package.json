@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp",
+    "build": "gulp --prod",
+    "style:lint": "stylelint ./dev/static/styles/**/*.scss --syntax scss",
+    "style:fix": "stylelint './dev/static/styles/**/*.scss' --syntax scss --fix"
   },
   "author": "Саламатин Анатолий",
   "license": "ISC",
