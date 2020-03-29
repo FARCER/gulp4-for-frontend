@@ -1,0 +1,59 @@
+{
+  "name": "gulp-frontend-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Саламатин Анатолий",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-w3c-html-validator": "^2.0.0",
+    "gulp.spritesmith": "^6.11.0",
+    "merge-stream": "^2.0.0",
+    "node-sass": "^4.13.1",
+    "stylelint": "^13.2.1",
+    "stylelint-config-standard-scss": "^1.1.0",
+    "stylelint-scss": "^3.15.0",
+    "vinyl-buffer": "^1.0.1",
+    "yargs": "^15.3.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "svg4everybody": "^2.1.9"
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

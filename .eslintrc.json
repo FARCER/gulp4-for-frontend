@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "dev/static/**/*.js"
+      ],
+      "extends": [
+        "standard"
+      ]
+    }
+  ]
+}
