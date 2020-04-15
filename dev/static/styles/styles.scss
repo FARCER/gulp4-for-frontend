@@ -22,30 +22,15 @@ body {
 *::before,
 *::after { box-sizing: border-box; }
 
-ul[class],
-ol[class] {
-  list-style: none;
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
   padding: 0;
+  font-weight: normal;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd { margin: 0; }
-
-a:not([class]) { text-decoration-skip-ink: auto; }
+ol, ul {
+  list-style: none;
+}
 
 img {
   max-width: 100%;

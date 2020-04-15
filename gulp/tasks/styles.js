@@ -15,6 +15,12 @@ module.exports = function styles() {
     .pipe(gulpif(!argv.prod, sourcemaps.init()))
     .pipe(scss())
     .pipe(autoprefixer({
+      overrideBrowserslist:  [
+        "last 4 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+      ],
       cascade: false
     }))
     .pipe(gulpif(argv.prod, cleanCSS({
